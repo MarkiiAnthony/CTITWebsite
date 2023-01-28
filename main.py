@@ -18,6 +18,16 @@ def About():
     return render_template('about.html')
 
 
+@app.route("/contact")
+def Contact():
+    return render_template('contact.html')
+
+
+@app.route("/blog")
+def Blog():
+    return "Blog..."
+
+
 @app.route("/service-pm")
 def ServicesPm():
     return render_template('service-pm.html')
